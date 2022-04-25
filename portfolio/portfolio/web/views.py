@@ -13,7 +13,3 @@ class AboutView(views.TemplateView):
 
 class ProjectsView(views.TemplateView):
     template_name = 'web/projects.html'
-
-
-class ContactView(views.TemplateView):
-    template_name = 'web/contact.html'
