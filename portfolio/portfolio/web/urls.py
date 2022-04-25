@@ -1,6 +1,6 @@
 from django.urls import path
 
-from portfolio.web.views import HomeView, AboutView, ContactView, ProjectsView
+from portfolio.web.views import HomeView, AboutView, ProjectsView
 
 urlpatterns = (
     path('', HomeView.as_view(), name='index'),
