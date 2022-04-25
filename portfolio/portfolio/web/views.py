@@ -1,6 +1,4 @@
-from django.shortcuts import render
 from django.views import generic as views
-from django.urls import reverse_lazy
 
 
 class HomeView(views.TemplateView):
