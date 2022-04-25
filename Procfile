@@ -1,2 +1,2 @@
-web gunicorn --pythonpath budget budget.wsgi
+web gunicorn --pythonpath portfolio portfolio.wsgi
 release: python portfolio/manage.py migrate
