@@ -7,13 +7,13 @@ class HomeView(views.TemplateView):
     template_name = 'web/index.html'
 
 
-class IntroView(views.TemplateView):
-    template_name = 'web/intro.html'
+class AboutView(views.TemplateView):
+    template_name = 'web/about.html'
 
 
-class SkillsView(views.TemplateView):
-    template_name = 'web/skills.html'
+class ProjectsView(views.TemplateView):
+    template_name = 'web/projects.html'
 
 
-class WorkView(views.TemplateView):
-    template_name = 'web/work.html'
+class ContactView(views.TemplateView):
+    template_name = 'web/contact.html'

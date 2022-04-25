@@ -1,18 +1,41 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block page_content %}
-    <!-- ***** Header ***** -->
-
-    <header class="header" role="banner" id="header">
-        <div class="header__text-box">
-            <h1 class="heading-primary">Hi! I am Nisar</h1>
-            <p class="header__description">
-                A Web Developer who creates UX rich performant websites and web
-                applications.
-            </p>
-            <a href="#popup" class="btn btn__hire" id="hire">Hire Me &nbsp;&rarr;</a>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is John Doe</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente solutions for
+            complex problems
+          </p>
         </div>
-        <!-- <p class="header__director">Scroll Down &darr;</p> -->
-    </header>
+        <div class="home-hero__cta">
+          <a href="{% url 'projects' %}" class="btn btn--bg">Projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="{% static 'linkedin-ico.png'%}"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="{% static 'github-ico.png' %}"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
 {% endblock %}
 
 

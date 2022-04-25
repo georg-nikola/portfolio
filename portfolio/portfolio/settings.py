@@ -114,10 +114,16 @@ STATIC_URL = '/static/'
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-    os.path.join(BASE_DIR, 'static/assets/img'),
-    os.path.join(BASE_DIR, 'static/assets/img/extras'),
+    os.path.join(BASE_DIR, 'static/assets/jpeg'),
+    os.path.join(BASE_DIR, 'static/assets/png'),
+    os.path.join(BASE_DIR, 'static/assets/svg'),
     os.path.join(BASE_DIR, 'static/assets'),
-    os.path.join(BASE_DIR, 'static/scss'),
+    os.path.join(BASE_DIR, 'static/saas'),
+    os.path.join(BASE_DIR, 'static/pages'),
+    os.path.join(BASE_DIR, 'static/saas/components'),
+    os.path.join(BASE_DIR, 'static/saas/base'),
+    os.path.join(BASE_DIR, 'static/saas/abstract'),
+    os.path.join(BASE_DIR, 'static/css'),
     os.path.join(BASE_DIR, 'static/js'),
 )
 
